@@ -47,6 +47,14 @@
   retry.addEventListener("click", ()=>{
     location.reload();
   });
+  
+  tw1.addEventListener("click", ()=>{
+    window.open("https://twitter.com/share?text=『Eyes wide open』Normal Clear!&url=https://pearl-izumo.github.io/Eyeswideopen.github.io/", "_blank");
+  });
+
+  tw2.addEventListener("click", ()=>{
+    window.open("https://twitter.com/share?text=『Eyes wide open』All Clear!&url=https://pearl-izumo.github.io/Eyeswideopen.github.io/", "_blank");
+  });
 
   jct1.addEventListener("click", ()=>{
     if(visit[0]==0){
