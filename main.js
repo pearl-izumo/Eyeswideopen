@@ -4,7 +4,6 @@
   var count = -1
   var color = ["red","darkslateblue","darkorange","lawngreen","blueviolet","yellow","aquamarine","deepskyblue","hotpink"]
   var check = 0
-  var check2 = 0
   var eyes = [[1,0,0,0,0,1,1,0,0],[0,1,0,0,0,0,1,1,1],[1,0,1,1,1,1,0,1,1],[0,1,1,1,0,1,1,1,0],[0,0,1,1,0,1,1,1,0],[1,1,0,1,1,0,0,0,0],[0,1,1,1,1,0,1,1,0],[0,1,1,1,1,1,1,1,0],[1,0,0,1,1,1,1,1,1]]
   var visit = [0,0,0,0,0,0,0,0,0]
   
@@ -21,9 +20,7 @@
   const box = document.getElementById("box")
   const failed = document.getElementById("failed")
   const clear = document.getElementById("clear")
-  const excellent = document.getElementById("excellent")
   const tw1 = document.getElementById("tw1")
-  const tw2 = document.getElementById("tw2")
   
   function vis(x) {
     x.style.visibility = "visible"
@@ -46,11 +43,7 @@
   });
   
   tw1.addEventListener("click", ()=>{
-    window.open("https://twitter.com/share?text=『Eyes wide open』Normal Clear!&url=https://pearl-izumo.github.io/Eyeswideopen/", "_blank");
-  });
-
-  tw2.addEventListener("click", ()=>{
-    window.open("https://twitter.com/share?text=『Eyes wide open』All Clear!&url=https://pearl-izumo.github.io/Eyeswideopen/", "_blank");
+    window.open("https://twitter.com/share?text=『Eyes wide open』Clear!&url=https://pearl-izumo.github.io/Eyeswideopen/", "_blank");
   });
 
   jct1.addEventListener("click", ()=>{
