@@ -34,9 +34,6 @@
       if(check==9){
         vis(clear);
         vis(tw1);
-      }else if(check2==9){
-        vis(excellent);
-        vis(tw2);
       }else{
         vis(failed);
         vis(retry);
@@ -60,12 +57,11 @@
     if(visit[0]==0){
       count += 1;
       visit[0] = 1;
-      if(eyes[count][0]==1){
+      if(eyes[count][0]==0){
         jct1.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct1.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -74,12 +70,11 @@
     if(visit[1]==0){
       count += 1;
       visit[1] = 1;
-      if(eyes[count][1]==1){
+      if(eyes[count][1]==0){
         jct2.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct2.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -88,12 +83,11 @@
     if(visit[2]==0){
       count += 1;
       visit[2] = 1;
-      if(eyes[count][2]==1){
+      if(eyes[count][2]==0){
         jct3.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct3.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -102,12 +96,11 @@
     if(visit[3]==0){
       count += 1;
       visit[3] = 1;
-      if(eyes[count][3]==1){
+      if(eyes[count][3]==0){
         jct4.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct4.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -116,12 +109,11 @@
     if(visit[4]==0){
       count += 1;
       visit[4] = 1;
-      if(eyes[count][4]==1){
+      if(eyes[count][4]==0){
         jct5.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct5.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -130,12 +122,11 @@
     if(visit[5]==0){
       count += 1;
       visit[5] = 1;
-      if(eyes[count][5]==1){
+      if(eyes[count][5]==0){
         jct6.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct6.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -144,12 +135,11 @@
     if(visit[6]==0){
       count += 1;
       visit[6] = 1;
-      if(eyes[count][6]==1){
+      if(eyes[count][6]==0){
         jct7.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct7.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -158,12 +148,11 @@
     if(visit[7]==0){
       count += 1;
       visit[7] = 1;
-      if(eyes[count][7]==1){
+      if(eyes[count][7]==0){
         jct8.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct8.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
@@ -172,12 +161,11 @@
     if(visit[8]==0){
       count += 1;
       visit[8] = 1;
-      if(eyes[count][8]==1){
+      if(eyes[count][8]==0){
         jct9.style.backgroundColor = color[count];
         check += 1;
       }else{
         jct9.style.backgroundColor = "lightgray";
-        check2 += 1;
       }
       last();
     }
