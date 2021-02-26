@@ -220,6 +220,55 @@ footer a{
     user-select: none;
     top: 240px;
   }
+  #box{
+    background:rgba(0,0,0,0.3);
+    width: 300px;
+    height: 150px;
+    position:absolute;
+    top: 80px;
+    left: 24px;
+    z-index: 10;
+    transition-delay: 0.5s;
+  }
+  #failed > p{
+    margin-top: 5px;
+    margin-left: 115px;
+    font-size: 35px;
+  }
+  #retry{
+    color: white;
+    background:#555555;
+    width: 80px;
+    height: 40px;
+    font-size: 25px;
+    position:absolute;
+    top: 70px;
+    left: 135px;
+    z-index: 11;
+    cursor: pointer;
+    transition-delay: 0.5s;
+  }
+  #retry > p{
+    margin-top: 5px;
+  }
+  #clear > p{
+    margin-top: 5px;
+    margin-left: 128px;
+    font-size: 35px;
+  }
+  .tweet{
+    color: white;
+    background:deepskyblue;
+    width: 80px;
+    height: 30px;
+    font-size: 25px;
+    position:absolute;
+    top: 70px;
+    left: 135px;
+    z-index: 11;
+    cursor: pointer;
+    transition-delay: 0.5s;
+  }
   footer {
     display: flex;
     text-align: center;
